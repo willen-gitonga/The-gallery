@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Charmonman|Kodchasan|Dancing+Script|Spirax" rel="stylesheet">
 
-<nav class="navbar " style="background-color:brown;">
+<nav class="navbar " style="background-color:coral;">
     <div class="container-fluid">
       <div class="navbar-header">
         <a style="font-family: 'Kodchasan', sans-serif;"class="navbar-brand" id="victor" href="{% url 'homePage' %}">The Image Gallery
@@ -13,7 +13,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                  data-toggle="dropdown" aria-haspopup="true"
                  style="font-family: 'Kodchasan', sans-serif;"aria-expanded="false">
-                FILTER BY CATEGORY
+                CATEGORY
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% for tag in tags %}
@@ -27,7 +27,7 @@
               <a class="nav-link dropdown-toggle" href="#"
                  id="navbarDropdown" role="button" data-toggle="dropdown"
                  style="font-family: 'Kodchasan', sans-serif;" aria-haspopup="true" aria-expanded="false">
-               FILTER BY LOCATION
+               LOCATION
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% for location in locations %}
