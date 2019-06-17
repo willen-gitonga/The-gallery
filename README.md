@@ -2,7 +2,7 @@
 A Gallery portfolio whereby a user can clicks on a picture, views it on a modal and can copy the link to the picture
 
 ## Getting Started.
-These instructions will get you a copy of the project up and running on a local host.
+These instructions will get you a copy of the project up and running on a local host
 
 Step 1: git clone
 Step 2: Enter the Project root folder
