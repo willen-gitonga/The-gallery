@@ -36,7 +36,7 @@ class tags(models.Model):
 
 
 class Image(models.Model):
-    image=models.ImageField(upload_to='picture/')
+    image=models.ImageField(upload_to='photos/')
     name = models.CharField(max_length=40)
     description=models.TextField()
     location=models.ForeignKey(Location, blank=True)
