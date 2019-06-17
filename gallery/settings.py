@@ -115,14 +115,14 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'gallery',
-        'USER':'willen',
-        'PASSWORD':'123',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME':'gallery',
+#         'USER':'willen',
+#         'PASSWORD':'123',
+#     }
+# }
 
 
 # Password validation
