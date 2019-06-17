@@ -11,7 +11,7 @@ def home_images(request):
     # images = Image.objects.all()
 
     locations = Location.objects.all()
-    tags = tags.objects.all()
+    tag = tags.objects.all()
 
     if request.GET.get('location'):
         pictures = Image.filter_by_location(request.GET.get('location'))
@@ -25,9 +25,7 @@ def home_images(request):
     else:
         pictures = Image.objects.all()
 
-    return render(request, 'index.html', {'locations':locations,
-                                          'tags': tags,
-                                          'pictures':pictures})
+    return render(request, 'index.html', locals())
 
 # Search for an image
 def search_image(request):
